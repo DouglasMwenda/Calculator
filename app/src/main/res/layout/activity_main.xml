@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvExpression"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@color/numberButton"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@color/numberButton"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cleaTv"
+                style="@style/ActionButton"
+                android:text="C"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/mulTv"
+                style="@style/ActionButton"
+                android:text="x"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/divTv"
+                style="@style/ActionButton"
+                android:text="÷"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/backTv"
+                style="@style/ActionButton"
+                android:text="@string/clear"
+                android:textColor="#0000FF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/sevenTv"
+                style="@style/NumberButton"
+                android:text="@string/_7"/>
+            <TextView
+                android:id="@+id/eightTv"
+                style="@style/NumberButton"
+                android:text="@string/_8"/>
+            <TextView
+                android:id="@+id/nineTv"
+                style="@style/NumberButton"
+                android:text="@string/_9"/>
+            <TextView
+                android:id="@+id/dotTv"
+                style="@style/ActionButton"
+                android:text="@string/dot"
+                android:textColor="#0000FF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/fourTv"
+                style="@style/NumberButton"
+                android:text="@string/_4"/>
+            <TextView
+                android:id="@+id/fiveTv"
+                style="@style/NumberButton"
+                android:text="@string/_5"/>
+            <TextView
+                android:id="@+id/sixTv"
+                style="@style/NumberButton"
+                android:text="@string/_6"/>
+
+            <TextView
+                android:id="@+id/plusTv"
+                style="@style/ActionButton"
+                android:text="@string/plus"
+                android:textColor="#0000FF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/oneTv"
+                style="@style/NumberButton"
+                android:text="@string/_1"/>
+            <TextView
+                android:id="@+id/twoTv"
+                style="@style/NumberButton"
+                android:text="@string/_2"/>
+            <TextView
+                android:id="@+id/threeTv"
+                style="@style/NumberButton"
+                android:text="@string/_3"/>
+
+            <TextView
+                android:id="@+id/minusTv"
+                style="@style/ActionButton"
+                android:text="@string/minus"
+                android:textColor="#0000FF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/openTv"
+                style="@style/NumberButton"
+                android:text="@string/op"/>
+
+            <TextView
+                android:id="@+id/zeroTv"
+                style="@style/NumberButton"
+                android:text="@string/_0"/>
+            <TextView
+                android:id="@+id/closeTv"
+                style="@style/NumberButton"
+                android:text="@string/eq"
+
+                />
+
+            <TextView
+                android:id="@+id/equalTv"
+                style="@style/ActionButton"
+                android:text="@string/equal"
+                android:textColor="#0000FF" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
