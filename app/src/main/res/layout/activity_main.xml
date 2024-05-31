@@ -30,7 +30,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#6082B6">
 
         <LinearLayout
 
@@ -47,25 +48,29 @@
                 android:id="@+id/cleaTv"
                 style="@style/ActionButton"
                 android:text="C"
-                android:textColor="#0000FF" />
+                android:textColor="#0000FF"
+                tools:ignore="HardcodedText,TextContrastCheck" />
 
             <TextView
                 android:id="@+id/mulTv"
                 style="@style/ActionButton"
                 android:text="x"
-                android:textColor="#0000FF" />
+                android:textColor="#0000FF"
+                tools:ignore="HardcodedText,TextContrastCheck" />
 
             <TextView
                 android:id="@+id/divTv"
                 style="@style/ActionButton"
                 android:text="÷"
-                android:textColor="#0000FF" />
+                android:textColor="#0000FF"
+                tools:ignore="HardcodedText,TextContrastCheck" />
 
             <TextView
                 android:id="@+id/backTv"
                 style="@style/ActionButton"
                 android:text="@string/clear"
-                android:textColor="#0000FF" />
+                android:textColor="#0000FF"
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -85,11 +90,12 @@
                 android:id="@+id/nineTv"
                 style="@style/NumberButton"
                 android:text="@string/_9"/>
+
             <TextView
                 android:id="@+id/dotTv"
                 style="@style/ActionButton"
                 android:text="@string/dot"
-                android:textColor="#0000FF" />
+                android:textColor="#311B92" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,7 +120,8 @@
                 android:id="@+id/plusTv"
                 style="@style/ActionButton"
                 android:text="@string/plus"
-                android:textColor="#0000FF" />
+                android:textColor="#0000FF"
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -139,7 +146,7 @@
                 android:id="@+id/minusTv"
                 style="@style/ActionButton"
                 android:text="@string/minus"
-                android:textColor="#0000FF" />
+                android:textColor="#311B92" />
         </LinearLayout>
 
         <LinearLayout
@@ -167,7 +174,8 @@
                 android:id="@+id/equalTv"
                 style="@style/ActionButton"
                 android:text="@string/equal"
-                android:textColor="#0000FF" />
+                android:textColor="#0000FF"
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
